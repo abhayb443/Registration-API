@@ -66,7 +66,7 @@ def get_user(id):
         if username:
             user.username = username
         session.commit()
-        return "Record Updated"
+        return "User record updated"
 
 
 if __name__ == '__main__':
